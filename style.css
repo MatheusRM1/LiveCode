@@ -92,15 +92,6 @@ body{
     cursor: pointer;
 }
 
-.post h1{
-    margin-left: 3px;
-    font-size: 12px;
-}
-
-.post p{
-    padding: 0 10px 0 10px;
-}
-
 .usuario{
     display: flex;
     flex-direction: column;
@@ -109,10 +100,6 @@ body{
     align-items: center;
     justify-content: center;
     margin-left: 10px;
-}
-
-.usuario p{
-    font-size: 15px;
 }
 
 .imagemCar{
@@ -164,16 +151,29 @@ body{
     animation: animacao forwards 1s;
 }
 
-.titulo-post{
-    margin-top: 10px;
-}
-
 @keyframes animacao{
     0%{
         opacity: 0;
     } 100%{
         opacity: 90%;
     }
+}
+
+.post h1{
+    margin-left: 3px;
+    font-size: 12px;
+}
+
+.post p{
+    padding: 0 10px 0 10px;
+}
+
+.usuario p{
+    font-size: 15px;
+}
+
+.titulo-post{
+    margin-top: 10px;
 }
 
 @media only screen and (min-width: 600px) and (max-width: 1024px) {
